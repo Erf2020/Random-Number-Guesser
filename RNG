@@ -1,0 +1,10 @@
+
+import java.util.Random;
+//This is the class that creates a random number and feeds it to the main method where it is called from.
+public class RNG {
+	public static int rand(int num)
+	{
+		Random number = new Random();
+		return number.nextInt(num);
+	}
+}
